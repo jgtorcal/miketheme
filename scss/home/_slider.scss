@@ -1,0 +1,32 @@
+.splide__pagination {
+  padding: 0px;
+  position: unset;
+}
+#image_slider .splide__list li {
+  height: $alto_slider;
+  background-size: cover;
+  background-position: center;
+}
+#image_slider .splide__slide img {
+  width: 100%;
+  height: auto;
+}
+#service_slider .splide__slide img {
+  object-fit: cover;
+  max-height: 300px;
+  width: 100%;
+}
+#service_slider {
+  padding-top: 40px;
+}
+.slider_text_box {
+  height: $alto_slider;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 3rem;
+  color: #282828;
+}
